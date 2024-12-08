@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP/2 Demonstracija</title>
+    <!-- Linkanje CSS datoteka -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <!-- Linkanje JS datoteka -->
+    <script defer src="js/gallery.js"></script>
+    <script defer src="js/formValidation.js"></script>
+    <script defer src="js/dynamicContent.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Dobrodošli na demonstraciju HTTP/2</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">O HTTP/2</a></li>
+                <li><a href="#gallery">Galerija</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Što je HTTP/2?</h2>
+            <p>
+                HTTP/2 je moderna verzija HTTP protokola koja omogućava brži prijenos podataka zahvaljujući binarnom protokolu i paralelizmu.
+            </p>
+        </section>
+
+        <section id="gallery">
+            <h2>Galerija</h2>
+            <div class="gallery">
+                <!-- Ovdje dodaj 15 slika -->
+                <img src="images/slika1.jpg" alt="Slika 1">
+                <img src="images/slika2.jpg" alt="Slika 2">
+                <img src="images/slika3.jpg" alt="Slika 3">
+                <img src="images/slika4.jpg" alt="Slika 4">
+                <img src="images/slika5.jpg" alt="Slika 5">
+                <img src="images/slika6.jpg" alt="Slika 6">
+                <img src="images/slika7.jpg" alt="Slika 7">
+                <img src="images/slika8.jpg" alt="Slika 8">
+                <img src="images/slika9.jpg" alt="Slika 9">
+                <img src="images/slika10.jpg" alt="Slika 10">
+                <img src="images/slika11.jpg" alt="Slika 11">
+                <img src="images/slika12.webp" alt="Slika 12">
+                <img src="images/slika13.jpg" alt="Slika 13">
+                <img src="images/slika14.jpg" alt="Slika 14">
+                <img src="images/slika15.jpg" alt="Slika 15">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Kontaktiraj nas</h2>
+            <form>
+                <label for="name">Ime:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Pošalji</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 HTTP/2 Projekt</p>
+    </footer>
+</body>
+</html>
